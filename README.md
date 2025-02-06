@@ -1,8 +1,39 @@
-🔹 Tech Stack: Python, NLTK, Scikit-learn, Pandas, Matplotlib
-🔹 Models Used: Random Forest, Decision Tree, Multinomial Naïve Bayes
+A machine learning-based spam email detection system developed as part of the "Intro to AI" course at Air University. This project leverages Natural Language Processing (NLP) techniques and multiple classifiers to efficiently distinguish spam from legitimate emails.
 
-🔹 Key Features:
-✅ Preprocessing and Text Cleaning – Removed special characters, converted text to lowercase, and applied stemming using NLTK’s PorterStemmer.
-✅ Feature Extraction using CountVectorizer – Converted email text into numerical format, creating a bag-of-words model with up to 4000 features.
-✅ Model Training and Evaluation – Trained multiple machine learning models and compared their performance using confusion matrices, accuracy scores, and classification reports.
-✅ Spam Detection Function – Developed a real-time email classification function that predicts whether an email is spam or ham using the trained Naïve Bayes model
+🚀 Features
+✅ Preprocessing & Text Cleaning
+
+Removes special characters, numbers, and punctuation
+Converts text to lowercase
+Applies stemming using NLTK’s PorterStemmer
+✅ Feature Extraction using Bag-of-Words
+
+Uses CountVectorizer to transform email text into numerical features
+Selects the top 4,000 most frequent words
+✅ Machine Learning Models
+
+Trains and evaluates Random Forest, Decision Tree, and Multinomial Naïve Bayes classifiers
+Compares accuracy, confusion matrices, and classification reports
+✅ Real-time Spam Detection
+
+Implements a function to classify new emails as Spam or Ham
+Uses the trained Naïve Bayes model for prediction
+✅ Data Visualization
+
+Generates word frequency distributions for spam emails
+Creates confusion matrix heatmaps for model evaluation
+📊 Model Performance
+Model	Accuracy (%)
+Random Forest	XX.XX%
+Decision Tree	XX.XX%
+Naïve Bayes	XX.XX%
+(Replace "XX.XX" with actual accuracy values)
+
+🛠️ Technologies Used
+Python
+NLTK (Text preprocessing, stopwords, stemming)
+Scikit-learn (Machine learning models, feature extraction)
+Matplotlib & Seaborn (Data visualization)
+Pandas & NumPy (Data handling)
+
+Dataset used: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
